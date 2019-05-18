@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Responsive websites displays content based on changes in the browser's width by adjusting placements of it's elements. Responsive design is also industry standard. An adaptive website has various fixed layouts that will display dependent upon the brower size. Adaptive is not as fluid as a responsive design page.
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Fro mobile first, the developer will design a page for the smallest possible width first and then expand design for wider widths. In desktop first, the developer will design for the widest possible width and then design for smaller widths.
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Setting the font size to 62.5% in the html element will set-up a standard or base for other elements to set rem sizes.  This would also be considered industry standard.
+
+
 4. How would you describe preprocessing to someone new to CSS?
 
+CSS preprocessors allows developers to set certain CSS selector elements and utilizes DRY principles so that the developer or a team will not be recreating the same elements over and over again.  It also gives the developers a centralized library of settings and selectors that could span across other projects.  Preprocessors also brings logic to CSS which allows for creating variables, mix-in, element nesting, and arithmetic which scales CSS capabilities similar to a logical language.
+
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept would be creating variables. The concept that gives me the most trouble would be the nesting.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
